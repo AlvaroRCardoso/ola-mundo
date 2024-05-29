@@ -12,8 +12,9 @@ export default function Post() {
     return (
         <PostTemplate
             fotoCapa={`/assets/posts/${post.id}/capa.png`}
+            titulo={post.titulo}
         >
-            Texto...
+            
         </PostTemplate>
     );
 }
