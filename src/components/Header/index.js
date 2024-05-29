@@ -6,10 +6,10 @@ export default function Header() {
         <header>
             <nav className={styles.navegacao}>
                 <HeaderLink to="/">
-                    Home
+                    Início
                 </HeaderLink>
                 <HeaderLink to="/sobre">
-                    About
+                    Sobre
                 </HeaderLink>
             </nav>
         </header>
