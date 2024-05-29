@@ -1,16 +1,16 @@
-import { Link } from "react-router-dom";
+import HeaderLink from "../HeaderLink";
 import styles from "./Header.module.css";
 
 export default function Header() {
     return (
         <header>
             <nav className={styles.navegacao}>
-                <Link className={styles.link} to="/">
+                <HeaderLink to="/">
                     Home
-                </Link>
-                <Link className={styles.link} to="/sobre">
-                    Sobre
-                </Link>
+                </HeaderLink>
+                <HeaderLink to="/sobre">
+                    About
+                </HeaderLink>
             </nav>
         </header>
     );

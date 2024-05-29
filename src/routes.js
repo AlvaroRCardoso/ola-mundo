@@ -3,7 +3,7 @@ import Home from "./pages/Home";
 import About from "./pages/Aboult";
 import Header from "./components/Header";
 
-function App() {
+function AppRoutes() {
   return (
     <BrowserRouter>
       <Header />
@@ -17,4 +17,4 @@ function App() {
   );
 }
 
-export default App;
+export default AppRoutes;
