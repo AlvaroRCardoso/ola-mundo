@@ -5,10 +5,10 @@ export default function Banner() {
         <div className={styles.banner}>
             <div className={styles.apresentacao}>
                 <h1 className={styles.titulo}>
-                    Bem-vindo ao blog!
+                    Olá, Mundo!
                 </h1>
                 <p className={styles.paragrafo}>
-                    Aqui você encontra os melhores conteúdos sobre programação.
+                    Boas vindas ao meu blog. Aqui você encontra conteúdos sobre tecnologia, programação e muito mais.
                 </p>
             </div>
         </div>
