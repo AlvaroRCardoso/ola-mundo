@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import styles from "./Post.module.css";
+import Button from "components/Button";
 
 export default function Post({ post }) {
     return (
@@ -11,7 +12,7 @@ export default function Post({ post }) {
                     alt={`Imagem de capa do post ${post.titulo}`}
                 />
                 <h2 className={styles.titulo}>{post.titulo}</h2>
-                <button className={styles.botaoLer}>Ler</button>
+                <Button>Ler</Button>
             </div>
         </Link>
     );
